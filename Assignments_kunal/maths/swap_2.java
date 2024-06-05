@@ -8,5 +8,9 @@ public class swap_2 {
         b = a ^ b;
         a = a ^ b;
         System.out.println(a + " " + b);
+
+
+
+
     }
 }
