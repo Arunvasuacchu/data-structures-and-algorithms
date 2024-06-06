@@ -15,6 +15,17 @@
 // 1s complement --> just invert it (101010) => ans -- (010101);
 // 2s Complement --> once invert it then add + 1;
 
+>> right shift.
+<< left shift.
+>>> unsigned right shift
+
+// when we calculate negative number in right shift we are following few steps.
+
+--> 1s complement.
+--> 2s complement.
+
+
+
 Range;
 -128 to 128 add 0 so 257;
 formula --> -2* n - 1 to 2 n - 1;

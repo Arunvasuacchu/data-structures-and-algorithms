@@ -2,8 +2,14 @@ package Assignments_kunal.maths;
 
 public class dec2bin {
     public static void main(String[] args) {
-        int num =  33;
+        int num =  4;
         System.out.println(bin2dec(num));
+        int a  = 12020202;
+        System.out.println( a << 2);
+        System.out.println(a *  2 * 2);
+//        int n = 3;
+//        int negation = -n;
+//        System.out.println(negation);
     }
     static String bin2dec(int nums) {
 
