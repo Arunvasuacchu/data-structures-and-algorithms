@@ -5,7 +5,9 @@ package Assignments_kunal.maths;
 public class single_number {
     public static void main(String[] args) {
         int[] arr = {-1,-1,-2,-2,-3,4,4};
-        System.out.println(single(arr));
+//        System.out.println(single(arr));
+
+        System.out.println(4 | 7);
     }
     static int single(int[] nums) {
         int sn = 0;

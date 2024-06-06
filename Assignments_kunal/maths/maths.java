@@ -11,6 +11,9 @@ public class maths {
 
     }
     static boolean odd(int n) {
+
         return (n & 1) == 0;
     }
 }
+
+
