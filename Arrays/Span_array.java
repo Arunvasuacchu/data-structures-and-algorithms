@@ -7,16 +7,15 @@ public class Span_array {
     static int spanArray(int[] num) {
         int max = num[0];
         int min = num[0];
-        for(int i = 0; i < num.length; i++) {
-            if(num[i] > max) {
-                max = num[i];
+        for (int j : num) {
+            if (j > max) {
+                max = j;
             }
-            if(num[i] < min) {
-                min = num[i];
+            if (j < min) {
+                min = j;
             }
         }
         return max - min;
-
 
     }
 
